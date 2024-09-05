@@ -1,0 +1,2292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+    
+<!-- Mirrored from labexpressbd.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 Sep 2024 23:45:03 GMT -->
+<head>
+        <meta charset="utf-8">
+        <title>ডায়াগনষ্টিক,হসপিটাল সফটওয়্যার</title>
+        <link rel="icon" type="image/x-icon" href="img/LAN_EXPRESS.png">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Saira:wght@500;600;700&amp;display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="../cdn.jsdelivr.net/npm/bootstrap-icons%401.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+<link href="../fonts.maateen.me/bensen/font.css" rel="stylesheet">
+    </head>
+    
+ 
+ 
+
+ 
+
+<style>
+
+h1,h2,h3,h4,h5,p,a,btn-custom,h6,li,price,ul,div{
+
+font-family: 'BenSen', sans-serif;
+}
+    
+    
+    @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+body {
+  
+  padding: 0;
+  maring: 0;
+}
+
+#price {
+  text-align: center;
+}
+
+.plan {
+  display: inline-block;
+  margin: 10px 1%;
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+.plan-inner {
+  background: #fff;
+  margin: 0 auto;
+  min-width: 280px;
+  max-width: 100%;
+  position:relative;
+}
+
+.entry-title {
+  background: #53CFE9;
+  height: 140px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.entry-title>h3 {
+  background: #20BADA;
+  font-size: 20px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+.entry-title .price {
+  position: absolute;
+  bottom: -25px;
+  background: #20BADA;
+  height: 95px;
+  width: 95px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  line-height: 80px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.price span {
+  position: absolute;
+  font-size: 9px;
+  bottom: -10px;
+  left: 30px;
+  font-weight: 400;
+}
+
+.entry-content {
+  color: #323232;
+}
+
+.entry-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.entry-content li {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 10px 0;
+}
+
+.entry-content li:last-child {
+  border: none;
+}
+
+.btn {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.btn a {
+  background: #323232;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none
+}
+.hot {
+    position: absolute;
+    top: -7px;
+    background: #F80;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+    padding: 2px 5px;
+    font-size: 9px;
+    border-radius: 2px;
+    right: 10px;
+    font-weight: 700;
+}
+.basic .entry-title {
+  background: #75DDD9;
+}
+
+.basic .entry-title > h3 {
+  background: #44CBC6;
+}
+
+.basic .price {
+  background: #44CBC6;
+}
+
+.standard .entry-title {
+  background: #4484c1;
+}
+
+.standard .entry-title > h3 {
+  background: #3772aa;
+}
+
+.standard .price {
+  background: #3772aa;
+}
+
+.ultimite .entry-title > h3 {
+  background: #DD4B5E;
+}
+
+.ultimite .entry-title {
+  background: #F75C70;
+}
+
+.ultimite .price {
+  background: #DD4B5E;
+}
+
+
+
+
+
+
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+</style>
+
+
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                    <div class="top-info">
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Link Road,Sadar Cox'sBazar-4700</small>
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>labexpressbd@gmail.com</small>
+                    </div>
+                  
+                    <div class="top-link">
+                        <a href="#" ><i class="fab fa-facebook-f text-primary"></i></a>
+                        <a href="#" ><i class="fab fa-twitter text-primary"></i></a>
+                        <a href="#" ><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="#" ><i class="fab fa-linkedin-in text-primary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-primary">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    
+                    
+                    <a href="index.html" class="navbar-brand">
+                        
+                        
+                        <h1 class="text-white fw-bold d-block">Lab<span class="text-secondary">Express</span> </h1>
+                    </a>
+                    
+                    
+                    
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> 
+                   
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            
+                            
+                           
+                            
+                            <a href="index.html" class="nav-item nav-link"><b>হোম</b></a>
+                            
+                            <a href="feature.html" class="nav-item nav-link"><b>ফিচার</b></a>
+                            <a href="pakages.html" class="nav-item nav-link"><b>প্যাকেজ</b></a>
+                            
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><b>প্রাইবেসি পলিসি</b></a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="privacy-policy.html" class="dropdown-item">প্রাইবেসি পলিসি</a>
+                                    <a href="service-policy.html" class="dropdown-item">সার্ভিস পলিসি</a>
+                                    
+                                </div>
+                                
+                                
+                            </div>
+                           
+                            
+                              <a href="clients.html" class="nav-item nav-link"><b>ক্লায়েন্ট</b></a>
+                            
+                            <a href="https://tinyurl.com/labexpress24" target="_blank" class="nav-item nav-link"><b>লগিন</b></a>
+                            
+                          
+                             
+                             
+                             
+                             <a href="https://serial.labexpressbd.com/" target="_blank" class="nav-item nav-link"><b>সিরিয়াল ম্যানেজমেন্ট</b></a>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    
+                    
+                    
+                        
+                        
+                    <div class="d-none d-xl-flex flex-shirink-0">
+                        <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                            <a href="#" class="position-relative animated tada infinite">
+                                <i class="fa fa-phone-alt text-white fa-2x"></i>
+                                <div class="position-absolute" style="top: -7px; left: 20px;">
+                                    <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column pe-4 border-end">
+                            <span class="text-white-50">Have any questions?</span>
+                            <span class="text-secondary">Call: + 88018-40728055</span>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center ms-4 ">
+                            <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+        
+
+        
+
+        <!-- Carousel Start -->
+        <div class="container-fluid px-0">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/rsz_slider-bg.png" class="img-fluid" alt="First slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h4 class="text-secondary animated fadeInUp">ল্যাব এক্সপ্রেস এ আপনাকে স্বাগতম</h4>
+                                <h1 class="text-white display-1 mb-4 animated fadeInRight">হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের ম্যানেজমেন্ট সফটওয়্যার</h1>
+                                <p class="mb-4 text-white fs-5 animated fadeInDown">নির্ভুল হিসাব ও সঠিক ডাটা এনালাইসিসের জন্য সহজ ও মানসম্মত সফটওয়্যার ল্যাব এক্সপ্রেস</p>
+                                   <a href="https://tinyurl.com/labexpress24" target="_blank" class="btn btn-secondary rounded-pill px-5 py-3 text-white">লগিন করুন</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="carousel-item">
+                        <img src="img/rsz_hero.jpg" class="img-fluid" alt="Second slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h4 class="text-secondary animated fadeInUp">ল্যাব এক্সপ্রেস এ আপনাকে স্বাগতম</h4>
+                                <h1 class="text-white display-1 mb-4 animated fadeInRight">হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের ম্যানেজমেন্ট সফটওয়্যার</h1>
+                                <p class="mb-4 text-white fs-5 animated fadeInDown">নির্ভুল হিসাব ও সঠিক ডাটা এনালাইসিসের জন্য সহজ ও মানসম্মত সফটওয়্যার ল্যাব এক্সপ্রেস</p>
+                                   <a href="https://tinyurl.com/labexpress24" target="_blank" class="btn btn-secondary rounded-pill px-5 py-3 text-white">লগিন করুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+      
+
+        <!-- About Start -->
+        <div class="container-fluid py-5 my-5">
+            <div class="container pt-5">
+                <div class="row g-5">
+                    <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                        <div class="h-100 position-relative">
+                            <img src="img/a2.png" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                            <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                                <img src="img/a1.png" class="img-fluid w-100 rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                        
+                        <h1 class="mb-4">কেন আপনি ল্যাব এক্সপ্রেস ব্যবহার করবেন?</h1>
+                        <p class="text-secondary animated fadeInUp"><b>ল্যাব এক্সপ্রেস সফটওয়্যারটি আমরা এমন ভাবে ডিজাইন করেছি, যা আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের বেসিক কম্পিউটার জানা কর্মচারী ও এই সফটওয়্যারটি সহজ ভাবে ব্যবহার করতে পারব।</p></b>
+                        
+                        <p><b>ল্যাব এক্সপ্রেস সফটওয়্যার ইউজার ইন্টারফেস এবং মডিউল ডিজাইন বেসিক কম্পিউটার ব্যবহার করতে পারে তাদের কথা মাথায় রেখে করেছি। তাই আমাদের সফটওয়্যার টি ব্যবহার করা একদম সহজ।</p> </b>                       
+                        
+                         <p class="text-secondary animated fadeInUp"><b>ল্যাব এক্সপ্রেস সফটওয়্যারটি আমার দুটি ভার্সনে ডেভেলপ করেছি। যদি আপনার এলাকায় ইন্টারনেট কানেকশন ভালো থাকে, তা হলে আপনি অনলাইন ভার্সনটি ব্যবহার করতে পারেন। আর আপনার এলাকায় যদি নেট কানেকশন ভালো না থাকে, তাহলে আপনি আমাদের অফলাইন ভার্সনটি নিতে পারেন।অফলাইন ভার্সনটি ব্যবহার করতে আপনার কোনো রকম ইন্টারনেট কানেকশন লাগবে না</p> </b>
+                        
+                        
+                        
+                        <a href="https://tinyurl.com/lebd2324" target="_blank" class="btn btn-secondary rounded-pill px-5 py-3 text-white">ডেমো/লগিন</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Services Start -->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h4 class="mb-4">আমাদের সফটওয়্যারের ফিচার সমুহ</h4>
+                    <h3 class="text-primary">পেশেন্ট বিল এন্ট্রি (ওপিডি এবং আইপিডি)</h3>
+                    <p><b>একজন রুগীর প্রেসক্রিপশন অনুসারে খুব সহজে বিল করা যায়। আমাদের সফটওয়্যারে আপনি বিল এন্ট্রি করলে সফটওয়্যার অটোমেটিক ভাবে আপনার ডায়াগনস্টিক সেন্টারের সকল হিসাবের রিপোর্ট তৈরি করে ফেলে</p> </b>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">নিউ বিল এন্ট্রি</h4>
+                                    <p class="mb-4">রোগীর প্রেসক্রিপশন অনুসারে আপনি টেস্ট সিলেক্ট করবেন। তার পর রোগীর নাম ,বয়স, মোবাইল নাম্বার,ঠিকানা এবং যে ডাক্তার টেস্ট দিয়েছে, তার নাম সিলেক্ট করে সাবমিট করলে বিল এন্ট্রি কমপ্লিট হবে এবং একটি মানি রিসিট প্রিন্ট হবে।
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ওল্ড পেশেন্ট বিল এন্ট্রি</h4>
+                                    <p class="mb-4">যদি পেশেন্টের আগে ডাটাবেজে সেভ থাকে, তাহলে আপনি পেশেন্টের আইডি অথবা মোবাইল নাম্বার দিয়ে সার্চ করে আবার বিল এন্ট্রি করতে পারবেন। যার কারণে আপনাকে নতুন করে পেশেন্ট এন্ট্রি করা লাগবে না।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">টেস্ট রিফান্ড এন্ট্রি</h4>
+                                    <p class="mb-4">যদি এমন হয়, একজন পেশেন্টের ৪ টা টেস্ট এন্ট্রি করে বিল কমপ্লিট করার পর, সে একটা টেস্ট এখন করবে না, সেই ক্ষেত্রে আপনি আমাদের সফটওয়্যারের টেস্ট রিফান্ড মডিউল দিয়ে, আপনি একটা টেস্ট ক্যানসেল করতে পারবেন অনেক সহজে</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-user fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">রোগি ভর্তি</h4>
+                                    <p class="mb-4">যদি পেশেন্টের আগে ডাটাবেজে সেভ থাকুক বা না থাকুক সহজে আপনি পেশেন্ট ভর্তি করাতে পারবেন, ভর্তি রোগির ট্রিটমেন্ট হিষ্ট্রি, ডিসচার্জ করা যাবে মহুর্তেই</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">বাকির হিসাব</h4>
+                                    <p class="mb-4">আমাদের সফটওয়্যার দিয়ে যদি আপনি কোনো মানি রিসিট বাকি তৈরি করেন, সেই হিসাব আপনি প্রতিদিন দেখতে পারবেন। আজকে কি পরিমান বাকি বিল করেছেন, আগের বাকী কি পরিমাণে কালেকশন করলেন, তার সকল হিসাব আপনি এই মডিউলে দেখতে পারবেন।</p>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">বাকির টাকা কালেকশন</h4>
+                                    <p class="mb-4">আপনি আমাদের এই মডিউল দিয়ে রোগীর আইডি দিয়ে সার্চ করে তার বিল দেখতে পারবেন। যদি বাকি থাকে, আপনি সেই টাকাও কালেকশন করতে পারবেন।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-bed fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">রুম বা কেবিনের বিবরণ</h4>
+                                    <p class="mb-4">কোন কোন রুম বা কেবিন খালি আছে এবং কোন কোন রুম বা কেবিন এ রোগি ভর্তি আছে সহজে চেক করতে পারবেন এবং কোন রোগিকে রিলিজ দেওয়ার সাথে রুম বা কেবিন খালি হয়ে যাবে</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">রোগীর বিলের বিবরণ</h4>
+                                    <p class="mb-4">যে কোন রোগীর বিলের বিবরণ বা ষ্টেটমেন্ট দিতে পারবেন খুব সহজে,যেমন মোট কত টাকা বিল হল কত টাকা পরিশোধ করা হল কত বকেয়া আছে বিস্তারিত সহকারে</P>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                  
+                  
+                  
+                  
+                  
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">টেস্ট ওয়াইজ কমিশন</h4>
+                                    <p class="mb-4">ল্যাব এক্সপ্রে সফটওয়্যার আপনাকে প্রতিদিন কোন ডাক্তার কি পরিমান টেস্ট করিয়েছে এবং কোন কোন ক্যাটাগরীর টেস্ট করিছেন এবং কি পরিমান কমিশন পাবেন এই সকল হিসাব সঠিক ও নির্ভুল ভাবে ক্যালকুলেশন করে। যার কারণে আপনার কাজ কে আরো সহজ করে ফেলে।</P>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ডাক্তার অনুসারে কমিশন</h4>
+                                    <p class="mb-4">প্রতিদিন আপনার ডায়াগনস্টিক ডাক্তার কি পরিমাণে রোগীর টেস্ট করান এবং ডাক্তার ওই টেস্ট থেকে কি পরিমান কমিশন পাবেন, এই সকল হিসাব আমাদের সফটওয়্যারে অটোমেটিক ভাবে হয়ে থাকে। যার কারণে আপনি প্রতিদিন কিংবা মাসের কমিশনের হিসাব অনকে কম সময়ে বের করতে পারবেন</p>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                  
+                  
+                  
+                   <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">এজেন্ট বা মার্কেটিং প্রতিনিধি অনুসারে কমিশন</h4>
+                                    <p class="mb-4">প্রতিদিন আপনার ডায়াগনস্টিক এজেন্ট বা মার্কেটিং প্রতিনিধি কি পরিমাণে রোগীর টেস্ট করান এবং এজেন্ট বা মার্কেটিং প্রতিনিধি ওই টেস্ট থেকে কি পরিমান কমিশন পাবেন, এই সকল হিসাব আমাদের সফটওয়্যারে অটোমেটিক ভাবে হয়ে থাকে। যার কারণে আপনি প্রতিদিন কিংবা মাসের কমিশনের হিসাব অনকে কম সময়ে বের করতে পারবেন</p>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                  
+                  
+                    
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-recycle fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">রিসাইকেল বিন</h4>
+                                    <p class="mb-4">মনে করুন আপনার কোন একজন ইউজার কোন বিল ডিলেট করে দিল সেটা আমাদের রিসাইকেল বিন মডিউল ব্যবহার করে খুব সহজে মনিটরিং করতে পাবেন যাতে কেউ বিল করে টাকা নিয়ে পরে বিলটি ইচ্ছে করে ডিলেট কতে না পারে</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                  
+                  
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+         <!-- Services Start 2-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">ওটি মডিউল</h3>
+                    
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ওটি বুকিং</h4>
+                                    <p class="mb-4">ভর্তি কিংবা ভর্তি ছাড়া যেকোন রোগির যেকোন প্রকার  অপারেশন অগ্রিম ও ইনষ্টান্ট(ওটি বুকিং)দেওয়া যাবে এবং  ওটির যাবতীয় বিল করা যাবে।
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ওটি কালেকশন</h4>
+                                    <p class="mb-4">আমাদের সফটওয়্যার দিয়ে যদি আপনি ওটি রোগির  হিসাব আপনি প্রতিদিন দেখতে পারবেন। আজকে কি পরিমান বাকি বিল করেছেন, আগের বাকী কি পরিমাণে কালেকশন করলেন, তার সকল হিসাব আপনি এই মডিউলে দেখতে পারবেন।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ওটি কমিশন</h4>
+                                    <p class="mb-4">প্রতিদিন আপনার প্রতিষ্টানে কোন ডাক্তার  কি পরিমান অপারেশন করলেন এবং কি পরিমান কমিশন পাবেন, এই সকল হিসাব আমাদের সফটওয়্যারে অটোমেটিক ভাবে হয়ে থাকে। যার কারণে আপনি প্রতিদিন কিংবা মাসের ওটি কমিশনের হিসাব অনকে কম সময়ে বের করতে পারবেন</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+        
+        
+        <!-- Services Start 3-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">ল্যাব অ্যান্ড টেস্ট মডিউল</h3>
+                    <p><b>এই মডিউল দিয়ে আপনি টেস্ট এন্ট্রি এবং ল্যাব রিপোর্ট ডিজাইন করতে পারবেন।যা আপনি একবার এন্ট্রি করে রাখলে আপনাকে বার বার করা লাগবে না</p></b>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">টেস্ট এন্ট্রি মডিউল</h4>
+                                    <p class="mb-4">টেস্ট মডিউল দিয়ে আপনি টেস্টের নাম, টেস্টের দাম এবং রেফারাল কমিশন কত টাকা, এই গুলো সেভ করে রাখতে পারবেন। যা বিল এন্ট্রি তে, আপনি টেস্ট সিলেক্ট করলে অটোমেটিক ভাবে প্রাইস চলে আসবে।
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ল্যাব রিপোর্ট</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে আপনি টেস্ট অনুসারে টেস্টের রেজাল্ট ভ্যালু এবং রিপোর্ট ফরম্যাট রেডী করতে পারবেন। যা আপনি রুগী দের টেস্ট রেজাল্ট এন্ট্রি করে প্রিন্ট করতে পারবেন</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">রিপোর্ট স্ট্যাটাস</h4>
+                                    <p class="mb-4">রিপোর্ট স্ট্যাটাস দিয়ে আপনি আপনার প্রতিষ্টানের কোন কোন রুগীর কোন কোন রিপোর্ট রেডী হয়ছে আর কোন রিপোর্ট বাকি আছে, সেই গুলো দেখতে পারবেন। যা আপনকে সঠিক সিদ্বান্ত দিয়ে সাহায্য করতে পারে।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+         <!-- Services Start 4-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">ডাক্তার অ্যাপয়েন্টমেন্ট মডিউল</h3>
+                    <p><b>অনলাইন অ্যাপয়েন্টমেন্ট সময়সূচী স্বাস্থ্যসেবা প্রতিষ্ঠান দ্বারা ব্যবহৃত হয়। এটি ব্যবসা এবং ক্লায়েন্ট উভয়ের জন্য সুবিধা প্রদান করে, প্রশাসনিক কাজগুলি হ্রাস করে এবং গ্রাহকের সন্তুষ্টি বাড়ায়।</p></b>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">অ্যাপয়েন্টমেন্ট এন্ট্রি</h4>
+                                    <p class="mb-4">অ্যাপয়েন্টমেন্ট এন্ট্রি এই মডিউলের মাধ্যমে আপনি আপনার প্রতিষ্টানে ডাক্তারের রোগি দেখার জন্য রিসিপশন থেকে  অ্যাপয়েন্টমেন্ট বুকিং নিতে পারবে বা রোগিরা ও সহজে অনলাইন থেকে অ্যাপয়েন্টমেন্ট বুকিং দিতে পারবে এবং বুকিং দেওয়ার সাথে সাথে এম.এম.এস মাধ্যমে জানতে পারবে কোন ড: এর জন্য কোন তারিখের অ্যাপয়েন্টমেন্ট বুকিং দিয়েছে বিস্তারিত
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">অ্যাপয়েন্টমেন্ট লেনদেন/অ্যাপয়েন্টমেন্ট বাতিল</h4>
+                                    <p class="mb-4">অ্যাপয়েন্টমেন্ট লেনদেন/অ্যাপয়েন্টমেন্ট বাতিল এই মডিউল ব্যবহার করে অ্যাপয়েন্টমেন্ট বুকিং এর পেমেন্ট নিতে পারবেন এবং বুকিংকৃত অ্যাপয়েন্টমেন্ট বাতিল করতে চাইলে সেটা বাতিল ও করা যাবে খুব সহজে। এবং দৈনিক কোন ড: এর কত গুলো রোগী অ্যাপয়েন্টমেন্ট দিল রির্পোট দেখতে পারবেন খুব সহজে।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">অ্যাপয়েন্টমেন্ট সিডিউলিং</h4>
+                                    <p class="mb-4">অ্যাপয়েন্টমেন্ট সিডিউলিং এর মাধ্যমে কোন ড: কোন দিন চেম্বার করবেন সব ধরনের সিডিউলিং করা যাবে।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+        
+          <!-- Services Start 5-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">রিজেন্ট/স্টোর মডিউল</h3>
+                    <p><b>এই মডিউল দিয়ে আপনি হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের  টেস্টের রিজেন্টের হিসাব রাখবে পারবেন । এক ক্লিকে দেখতে পারবেন, কি পরিমান রিজেন্ট স্টকে আছে।</p></b>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">রিজেন্ট এন্ট্রি/সাপ্লাইর এন্ট্রি</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে আপনি আপনার রিজেন্টর নাম কোন সাপ্লাইয়ের থেকে কিনেন, এই সকল ডাটা সেভ করে রাখতে পারবেন।
+আপনি কোন সাপ্লাইয়ের থেকে রিজেন্ট কিনেন, তার নাম আপনি সেভ করে রাখতে পারবেন। যা আপনাকে পরবর্তীতে আপনি রিজেন্ট কিনতে অনেক হেল্প করবে।
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">রিজেন্ট স্টক আপডেট</h4>
+                                    <p class="mb-4">এই মডিউল আপনাকে আপনার, প্রতিদিনকার রিজেন্ট কি পরিমান ব্যবহার করছে তার হিসাব এন্ট্রি করাতে সাহায্য করবে।তারপর আপনার কাজ শেষ। বাকি কাজ আমাদের সফটওয়্যারে অটোমেটিক স্টক আপডেট হয়ে যাবে।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">রিজেন্ট ইনভেন্টরি রিপোর্ট</h4>
+                                    <p class="mb-4">আপনি আপনার স্টক আপডেট করলে, আমাদের সফটওয়্যারে আপনার ইনভেন্টরি স্টক অটোমেটিক ভাবে আপডেট হয়ে যাবে। আপনি এক ক্লিক করে দেখতে পারবেন, কোন রিজেন্ট ওপেনিং স্টক, ইউজড স্টক এবং কারেন্ট স্টক।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+              <!-- Services Start 6-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">একাউন্টিং মডিউল</h3>
+                    <p><b>আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের সকল একাউন্টের হিসাব নিকাশ করবে যা আপনাকে আপনার মাসের সকল রিপোর্ট করতে সাহায্য করবে</p></b>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ক্যাশ বুক</h4>
+                                    <p class="mb-4">আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের প্রতিদিনকার টেস্ট সেলস ইনকাম থেকে আপনার এক্সপেন বিয়োগ করে প্রতিদিনকার ক্যাশ বুক দেখাবে যাবে এবং আজকের ক্যাশ ক্লোজিং ব্যালান্স আগামী দিনের ওপেনিং ব্যালান্স হিসাবে কাউন্ট করবে। আপনি ডেইলি ক্যাশ বুক এবং মাসিক ক্যাশ বুকের রিপোর্ট ও দেখতে পারবেন।
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ব্যাংক বুক</h4>
+                                    <p class="mb-4">ল্যাব এক্সপ্রেস দিয়ে আপনি আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের সকল প্রকার ব্যাংকের হিসাব রাখতে পাবেন । আপনি প্রতিদিন কি পরিমাণে টাকা জমা বা উত্তোলন করছেন তারও হিসাব পাবেন।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ব্যালান্স ট্রান্সফার</h4>
+                                    <p class="mb-4">আপনি আপনার প্রতিদিনকার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের ক্যাশ আপনি ব্যাংকে ট্রান্সফার করতে পারবেন অথবা ব্যাংক থেকে টাকা ক্যাশ বুক ট্রান্সফার করতে পাবেন এবং দিন অথবা মাসিক রিপোর্ট দেখতে পারবেন</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+        
+        
+                 <!-- Services Start 7-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">ভাউচার/এক্সপেন্স মডিউল</h3>
+                    <p><b>আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের সকল এক্সপেন্সের হিসাব রাখতে পারবেন সহজে।ডাক্টারের পেমেন্ট,সাপ্লাইয়ারদের পেমেন্ট,এজেন্ট কমিশন সহ যাবতীয় হিসাব রাখতে পারবেন।</p></b>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">এক্সপেন্স/ভাউচার এন্ট্রি</h4>
+                                    <p class="mb-4">ল্যাব এক্সপ্রেস সফটওয়্যার দিয়ে আপনি অনেক সহজ ভাবে এক্সপেন্সের নাম এন্ট্রি করতে পারবেন। এক্সপেন্সের এন্ট্রিতে ক্লিক করলে, সফটওয়্যার আপনার কাছে এক্সপেন্সের পরিমান, কোন খাতে এক্সপেন্স করবেন, ডেট রিমার্ক করে সেভ দিলেই এক্সপেন্স এন্ট্রি হয়ে যাবে এছাড়া ও ডাক্টারের পেমেন্ট,সাপ্লাইয়ারদের পেমেন্ট,এজেন্ট কমিশন পেমেন্ট এন্ট্রি করতে পারবেন।
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">অ্যাড এক্সপেন্স</h4>
+                                    <p class="mb-4">এক্সপেন্সে নাম এন্ট্রি করার জন্য এটা আপনাকে হেল্প করবে আপনি ক্লিক করে আপনার এক্সপেন্সের নাম দিয়ে সেভ করলে ডাটা সেভ হয়ে যাবে</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">এক্সপেন্স/ভাউচার সামারি</h4>
+                                    <p class="mb-4">আপনি এক্সপেন্সে,ডাক্টারের পেমেন্ট,সাপ্লাইয়ারদের পেমেন্ট,এজেন্ট কমিশন এন্ট্রি করলেই, এই রিপোর্ট টি রেডী হয়ে যাবে। যার কারণে আপনি দেখতে পারবেন, আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের কি পরিমাণে এক্সপেন্স হয়েছে।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+        
+                   <!-- Services Start 8-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">প্রেসক্রিপশন এবং ডক্টর মডিউল</h3>
+                    <p><b>এই মডিউল দিয়ে আপনি আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের ডাক্তারের নাম , অ্যাপয়েন্টমেন্ট ডেট, সিডিউল সহ আরো অনেক ইনফরমেশন সেভ করে রাখতে পারবেন।</p></b>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ডাক্তারের ডাটাবেজ</h4>
+                                    <p class="mb-4">ল্যাব এক্সপ্রেস সফটওয়্যারের মাধ্যমে আপনি আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের সকল ডাক্তারের নাম, মোবাইল নাম্বার সহ আরো অনেক ইনফরমেশন আপনি সেভ করে রাখতে পারবেন।
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">অ্যাপয়েন্টমেন্ট ডেট সিডিউল</h4>
+                                    <p class="mb-4">আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের  যে সকল ডাক্তার রুগীর দেখেন, আপনি তাদের অ্যাপয়েন্টমেন্ট সিডিউল করতে পারবেন অর্থাৎ কোন ডাক্তার কোন কোন দিন রোগী দেখবেন। আর কয়টা থেকে কয়টা পর্যন্ত দেখবেন,এই সকল ইনফরমেশন রাখতে পারবেন। তা ছাড়া ডাক্তার দের রুগী দেখার ভিজিট চার্জ ও আপনি সেটআপ করে রাখতে পারবেন।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ডাক্তারের রেফারাল সেটআপ</h4>
+                                    <p class="mb-4">ডাক্তার রেফারেল মডিউল দিয়ে আপনি যে সকল ডাক্তার টেস্টের ওপর রেফারেল ইনকাম নিবে তাদের পার্সেন্ট সেটআপ করে দিতে পারবেন। যা কিনা অটোমেটিক ভাবে টেস্টের বিল এন্ট্রি করলে ডাক্তারের অ্যাকাউন্টে অটোমেটিক ভাবে যোগ হবে।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">প্রেসক্রিপশন তৈরি</h4>
+                                    <p class="mb-4">প্রেসক্রিপশন মডিউল দিয়ে আপনি আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের ডাক্টাররা প্রেসক্রিপশন লিখেতে পারবে এবং পুরাতন রোগিদের ট্রিটমেন্ট হিষ্ট্রি খুব সহজে বের করতে পারবে ।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ডাক্তারের অ্যাকাউন্ট স্টেটমেন্ট</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে ডাক্টার নিজেই দেখতে পারবে তার রোগী দেখার সংখ্যা,বেতন,কমিশন সহ যাবতীয় হিসাব বা স্টেটমেন্ট</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+        
+                       <!-- Services Start 9-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">এইচ আর অ্যান্ড পেরোল</h3>
+                    <p><b>আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের কর্মকর্তা ও কর্মচারীদের বেতন ম্যানেজমেন্ট করার জন্য আমাদের সফটওয়্যারে আছে এইচ আর অ্যান্ড পেরোল  সিস্টেম।</b></P>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">কর্মকর্তা ও কর্মচারীদের পেরোল</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে আপনি আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের কর্মকর্তা ও কর্মচারীদের বেতনের স্কেল অনুসারে ডাটা সেভ করে রাখতে পারবেন।
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">এটেনডেন্ট,ছুটি,লোন ও বেতন তৈরি</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে আপনি আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের কর্মকর্তা ও কর্মচারীদের উপস্তিতি,ছুটি,এডভান্স লোন সহ যাবতীয় হিসাব নিকাশ করা যাবে ।প্রতি মাসে কর্মচারীদের বেতনের একটি তালিকা পাবেন।যার মাধ্যমে আপনি দেখতে পারবেন, কোন মাসে, কার বেতন কত টাকা , কেউ যদি অগ্রিম বেতন নিয়ে থাকে তার তালিকা সহ আরো অনেক রিপোর্ট।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ডিউটি রোষ্টার</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে আপনি আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের কর্মকর্তা ও কর্মচারীদের কার কখন কোন শিফটে ডিউটি করবে সব ধরনের শিডিউল করা যাবে ।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+                            <!-- Services Start 10-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">মেডিকেল রেকর্ড</h3>
+                    <p><b>আপনার হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের রোগীর জন্ম/মৃতু রেকর্ড রাখা যাবে।</b></P>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">জন্ম ও মৃত সনদ আবেদন</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে রোগীরা জন্ম বা মৃতু সনদের জন্য অনলাইনে আবেদন করতে পারবে
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">জন্ম সনদ</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে একটি বাচ্চা ডেলিভরি বা জন্ম  গ্রহন করার পর সফটওয়্যারে এন্ট্রি করে রাখা যাবে এবং যেকোন সময় অভিবাবকদের বাচ্চার জন্ম সনদ দিতে পাবেন।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">মৃতু সনদ</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে একটি রোগী মারা যাওয়ার পর সফটওয়্যারে এন্ট্রি করে রাখা যাবে এবং যেকোন সময় মৃতু সনদ দিতে পাবেন।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+        
+                               <!-- Services Start 11-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">ব্লাড ব্যাঙ্ক</h3>
+                    <p><b>এই মডিউল দিয়ে আপনি সফটওয়্যার ব্লাড ব্যাংকের যাবতীয় কাজ সম্পাদনা করতে পাবেন।</b></P>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ডোনার তৈরি</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে আপনি নাম ,বয়স, মোবাইল নাম্বার,ঠিকানা দিয়ে ডোনারদের তালিকা তৈরি করতে পারবেন
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">রক্ত সংগ্রহ এবং রূপান্তর</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে ডোনারদের থেকে রক্ত সংগ্রহ করা যাবে এবং রক্ত গ্রহিতাদের রক্ত সরবরাহ করা যাবে ।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ব্লাড ব্যাঙ্কের স্টক</h4>
+                                    <p class="mb-4">প্রতিদিন কি পরিমান রক্ত সংগ্রহ করা হচ্ছে এবং কি পরিমান রক্ত রোগিদের সরবরাহ করা হচ্ছে এবং কোন গ্রুপের কি পরিমান রক্ত মজুদ আছে সহজে দেখা যাবে ।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+        
+        
+                                   <!--Services Start 12-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">সিকিউরিটি/ইউজার এ্যাকসেস কন্ট্রোল</h3>
+                    <p><b>এই মডিউল দিয়ে আপনি সফটওয়্যার ব্যবহারকারী তৈরি ,ব্যবহারকারীকে কত টুকু মডিউল ব্যবহার করতে পারবে সেটা ফিক্স করে দিতে পারবেন</b></P>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                   <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ইউজার তৈরি</h4>
+                                    <p class="mb-4">এই মডিউল দিয়ে আপনি সফটওয়্যার ব্যবহারকারী তৈরি করতে পারবেন
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-edit fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ইউজার এ্যাকসেস পারমিশন</h4>
+                                    <p class="mb-4">সফটওয়্যারটির এ্যাকসেস কন্ট্রোল ফিচারের মাধ্যেমে আপনি যে কোন ইউজার কতটুকু জায়গায় এ্যাকসেস পাবে তা নিয়ন্ত্রন করতে পারবেন</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-retweet fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">ব্যবহারকারী লগইন হিষ্ট্রি এবং পাসওয়ার্ড পরিবর্তন</h4>
+                                    <p class="mb-4">এই মডিউল ব্যাবহার করে কোন ইউজার কখন লগিন করল সকল হিষ্ট্রি দেখা যাবে এবং ইউজার পাসওয়ার্ড পরিবর্তন করতে পারবে ।</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+        
+                                <!-- Services Start 12-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">ফার্মেসি মডিউল</h3>
+                    <p><b>ফার্মেসি মডিউলি এর মাধ্যমে আপনি পন্য যুক্ত,পন্য ক্রয়-বিক্রয়,রিটার্ণ,পন্যের ষ্টক,সরবরাহকারীদের পেমেন্ট,কাষ্টমার পেমেন্ট, কাষ্টমার ডিউ রিপোর্ট, সরবরাহকারীদের ডিউ রিপোর্ট, মেয়াদ উক্তিন্ন পন্যের তালিকা সহ লাভ ক্ষতির সহ ২০ টির বেশি রিপোর্ট রয়েছে ।</b></P>
+                    
+                </div>
+                
+                
+                
+                
+               
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+          
+                                <!-- Services Start 12-->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    
+                    <h3 class="text-primary">রিপোর্ট</h3>
+                    <p><b>ব্যবসার বর্তমান পরিস্থিতি কি এবং সে অনুযায়ী সঠিক সিদ্ধান্ত নেবার জন্য প্রয়োজন রিপোর্ট, এখানে ৩০ টির এর উপর রিপোর্ট আছে, যেগুলো আপনাকে সঠিক তথ্য দিয়ে সঠিক ব্যবসায়িক সিদ্ধান্ত নিতে সাহায্য করবে</b></P>
+                    
+                </div>
+                
+                
+                
+                
+               
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        
+        
+        
+
+
+        <!-- Project Start -->
+        <div class="container-fluid project py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">আমাদের প্রকল্প</h5>
+                    <h1>আমাদের সম্প্রতি সমাপ্ত প্রকল্প</h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c1.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Telerad Medical Systems Ltd</p>
+                                        <p class="m-0 text-white">Dhaka</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c2.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">TG Hospital</p>
+                                        <p class="m-0 text-white">Dhaka</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c3.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Rokeyra Clinic&Hospital</p>
+                                        <p class="m-0 text-white">Dhaka</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c4.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Christian Hospital Chandraghona</p>
+                                        <p class="m-0 text-white">Rangamati Hill District</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c5.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">রামগড় মেমোরিয়াল হাসপাতাল</p>
+                                        <p class="m-0 text-white">Khagrachari</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c6.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Munzu Hospital</p>
+                                        <p class="m-0 text-white">Rajshahi</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c7.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">নিরাময় ক্লিনিক এন্ড ডায়াগনস্টিক সেন্টার</p>
+                                        <p class="m-0 text-white">Rajshahi</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c8.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">আয়েশা মেমোরিয়াল হাসপাতাল এন্ড ডায়াবেটিস সেন্টার</p>
+                                        <p class="m-0 text-white">গাজীপুর</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                      
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c9.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">The Bengal Pathology</p>
+                                        <p class="m-0 text-white">Kushtia</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+              
+              
+              
+              
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c10.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Orchid Diagnostic Center</p>
+                                        <p class="m-0 text-white">Bangla Bazar,Cox's Bazar</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+               
+               
+               
+               
+               
+               
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c21.png" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">K K A General Hospital & Diagnostic Centre</p>
+                                        <p class="m-0 text-white">Khulna</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                  
+                  
+                  
+               
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c11.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">সখিনা ডায়াগনষ্টিক সেন্টার</p>
+                                        <p class="m-0 text-white">যশোর</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                           <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c11.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Anas Diagnostic Center</p>
+                                        <p class="m-0 text-white">Madaripur</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+              
+              
+              
+              
+              
+                   
+                           <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c11.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">City Digital Lab</p>
+                                        <p class="m-0 text-white">Gopalganj</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                       
+                    
+                    
+                    
+                    
+                    
+                    
+                       
+                           <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c13.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                       <p class="m-0 text-white">নিউ ইবনে সিনা মেডিকেল সেন্টার</p>
+                                        <p class="m-0 text-white">লক্ষীপুর</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                        
+                        
+             
+                       
+                           <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c14.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Al-Hera Digital Diagnostic Centre & Hospital</p>
+                                        <p class="m-0 text-white">Kishoreganj</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    
+                
+                 
+                       
+                           <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c15.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">কুশিয়ারা মেডিকেল ক্লিনিক</p>
+                                        <p class="m-0 text-white">গোলাপগঞ্জ সিলেট</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    
+                    
+                      <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c6.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Munzu Hospital & Diagnostic Center</p>
+                                        <p class="m-0 text-white">Rajshahi</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                        
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c11.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Safia Diagnostic</p>
+                                        <p class="m-0 text-white">Cumilla</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                              
+                    
+                    
+                         
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c16.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Banganchara Child Care & Diagnostic Center</p>
+                                        <p class="m-0 text-white">Jashore</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    
+                    
+                    
+                    
+                           
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c17.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Mostafapur Diagnostic Center</p>
+                                        <p class="m-0 text-white">Madaripur</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    
+                    
+                    
+                    
+                                  
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c18.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Lifecare Hospital & Diagnostic Center</p>
+                                        <p class="m-0 text-white">Jashore</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                                          
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c19.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Takowa Diagnostic Center</p>
+                                        <p class="m-0 text-white">Sherpur</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                  
+                  
+                         
+                                          
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c20.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">রয়্যাল আল্ট্রাসাউন্ড এন্ড হসপিটাল</p>
+                                        <p class="m-0 text-white">তাহেরপুর, রাজশাহী</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c22.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">Modern Isha Khan General Hospital and Diagnostic Centre</p>
+                                        <p class="m-0 text-white">East Town, Madanpur,Bandar, Narayanganj</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                      
+                     
+                     
+                       <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c23.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">মেডিপ্যাথ ক্লিনিক অ্যান্ড ডিজিটাল ডায়াগনস্টিক সেন্টার</p>
+                                        <p class="m-0 text-white">সাপাহার,নওগাঁ</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                      
+                     
+                     
+                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/rsz_c11.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        
+                                        <p class="m-0 text-white">আপন ক্নিনিক অ্যান্ড ডিজিটাল ডায়াগনষ্টিক সেন্টার</p>
+                                        <p class="m-0 text-white">খন্দকার মারকেট ২য় তলা, ঘোড়াপীড় মোড়, সোনাতলা, বগুড়া</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     
+                     
+                     
+                     
+                          
+     <div id="price">
+  <!--price tab-->
+  
+  
+  <h1 class="text-black fw-bold d-block">Pricing Plan (Online Version)
+<span class="text-secondary"></span></h1>
+  
+  <!-- end of price tab-->
+</div>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+</style>
+</head>
+<body>
+
+
+<p><center>যদি আপনার এলাকায় ইন্টারনেট কানেকশন ভালো থাকে, তাহলে আপনি অনলাইন ভার্সনটি ব্যবহার করতে পারেন। অনলাইন ভার্সনটিতে আমরা এমন বিশেষ টেকনোলজি ব্যবহার করেছি, যা ইন্টারনেট স্পিড খুব থাকলেও আপনি সফটওয়্যারটি খুব স্মুথলি ব্যবহার করতে পারবেন, যেন মনে হবে আপনি অফলাইন সফটওয়্যার ব্যবহার করছেন। অনলাইন সফটওয়্যার ভার্শনটি আমাদের ক্লাউড সার্ভারে থাকবে। আপনার ব্যবহৃত সফটওয়্যারের ডাটার ১০০% নিরাপত্তা নিশ্চয়তা আমরা প্রদান করব।
+</p><center>
+
+<table>
+  <tr>
+     <th style="background-color:DodgerBlue;color:black;"><center>প্যাকেজের নাম</th></center>
+    <th style="background-color:DodgerBlue;color:black;"><center>মডিউল</th></center>
+    <th style="background-color:DodgerBlue;color:black;"><center>ইনস্টলেশন খরচ</th></center>
+     <th style="background-color:DodgerBlue;color:black;"><center>পরিষেবা এবং সার্ভার খরচ</th></center>
+  </tr>
+   <tr>
+    <td><center>প্রাইমারী প্যাকেজ(অনলাইন)</td><center>
+    <td><center>রোগী ব্যবস্থাপনা,আউটডোর ম্যানেজমেন্ট
+,ভাউচার ব্যবস্থাপনা,ল্যাব রিপোর্ট ব্যবস্থাপনা,এমআইএস/অ্যাকাউন্ট রিপোর্ট,নিরাপত্তা ব্যবস্থাপনা,এস.এম.এস মডিউল</td></center>
+    <td><center>১০,০০০/-</td></center>
+    <td><center>১০০০/-(মাসিক)</td></center>
+  </tr>
+  
+  <tr>
+    <td><center>এক্সপ্রেস প্যাকেজ(অনলাইন)</td></center>
+    <td><center>রোগী ব্যবস্থাপনা
+,আউটডোর ম্যানেজমেন্ট,ইনডোর ম্যানেজমেন্ট,ওটি ব্যবস্থাপনা,ভাউচার ব্যবস্থাপনা,ল্যাব রিপোর্ট ব্যবস্থাপনা,স্টোর ম্যানেজমেন্ট,এইচআর ম্যানেজমেন্ট,রোগীর অনলাইন পোর্টাল,মেডিকেল রেকর্ড ব্যবস্থাপনা,এমআইএস/অ্যাকাউন্ট রিপোর্ট,নিরাপত্তা ব্যবস্থাপনা,এস.এম.এস মডিউল,একটি ওয়েবসাইট</td></center>
+    <td><center>১৫,০০০/-</td></center>
+    <td><center>১৫০০/-(মাসিক)</td></center>
+  </tr>
+ 
+ 
+ 
+ 
+  <tr>
+    <td><center>সুপার প্যাকেজ(অনলাইন)</td></center>
+    <td><center>রোগী ব্যবস্থাপনা
+,আউটডোর ম্যানেজমেন্ট,ইনডোর ম্যানেজমেন্ট,ওটি ব্যবস্থাপনা,অ্যাপয়েন্টমেন্ট ম্যানেজমেন্ট,ভাউচার ব্যবস্থাপনা,ল্যাব রিপোর্ট ব্যবস্থাপনা,ফার্মেসি ব্যবস্থাপনা,স্টোর ম্যানেজমেন্ট,এইচআর ম্যানেজমেন্ট,ডাক্তারের প্রেসক্রিপশন,রোগীর অনলাইন পোর্টাল,মেডিকেল রেকর্ড ব্যবস্থাপনা,ব্লাড ব্যাঙ্ক ব্যবস্থাপনা,এমআইএস/অ্যাকাউন্ট রিপোর্ট,নিরাপত্তা ব্যবস্থাপনা,ফ্রন্ট ডেস্ক ব্যবস্থাপনা,এস.এম.এস মডিউল,একটি ওয়েবসাইট</td></center>
+    <td><center>২০,০০০/-</td></center>
+    <td><center>২০০০/-(মাসিক)</td></center>
+  </tr>
+ 
+</table>
+
+</body>
+
+<!-- Mirrored from labexpressbd.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 Sep 2024 23:45:15 GMT -->
+</html>
+
+
+
+<h1 class="text-black fw-bold d-block">Pricing Plan (Offline Version)
+
+<span class="text-secondary"></span></h1>
+  
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+</style>
+</head>
+<body>
+
+
+<p><center>আর আপনার এলাকায় যদি নেট কানেকশন ভালো না থাকে, তাহলে আপনি আমাদের অফলাইন ভার্সনটি নিতে পারেন। আমরা আপনার অফিস এ ব্যবহৃত পিসি কে সার্ভার পিসি বানিয়ে দিব। সার্ভার পিসি আপনার অফিস এ থাকবে আমরা শুধু নিয়মিত রক্ষণাবেক্ষণ এর দায়িত্বে থাকব। সার্ভার পিসি এর জন্য নুন্যতম Core i3 4th Generation এর পিসি লাগবে।
+
+</p><center>
+
+<table>
+  <tr>
+     <th style="background-color:DodgerBlue;color:black;"><center>প্যাকেজের নাম</th></center>
+    <th style="background-color:DodgerBlue;color:black;"><center>মডিউল</th></center>
+    <th style="background-color:DodgerBlue;color:black;"><center>ইনস্টলেশন খরচ</th></center>
+     <th style="background-color:DodgerBlue;color:black;"><center>পরিষেবা এবং সার্ভার খরচ</th></center>
+  </tr>
+   <tr>
+    <td><center>প্রাইমারী প্যাকেজ(অফলাইন)</td><center>
+    <td><center>রোগী ব্যবস্থাপনা,আউটডোর ম্যানেজমেন্ট
+,ভাউচার ব্যবস্থাপনা,ল্যাব রিপোর্ট ব্যবস্থাপনা,এমআইএস/অ্যাকাউন্ট রিপোর্ট,নিরাপত্তা ব্যবস্থাপনা,এস.এম.এস মডিউল</td></center>
+    <td><center>২০,০০০/-</td></center>
+    <td><center>১,৫০০/-(মাসিক)</td></center>
+  </tr>
+  
+  <tr>
+    <td><center>এক্সপ্রেস প্যাকেজ(অফলাইন)</td></center>
+    <td><center>রোগী ব্যবস্থাপনা
+,আউটডোর ম্যানেজমেন্ট,ইনডোর ম্যানেজমেন্ট,ওটি ব্যবস্থাপনা,ভাউচার ব্যবস্থাপনা,ল্যাব রিপোর্ট ব্যবস্থাপনা,স্টোর ম্যানেজমেন্ট,এইচআর ম্যানেজমেন্ট,রোগীর অনলাইন পোর্টাল,মেডিকেল রেকর্ড ব্যবস্থাপনা,এমআইএস/অ্যাকাউন্ট রিপোর্ট,নিরাপত্তা ব্যবস্থাপনা,এস.এম.এস মডিউল,একটি ওয়েবসাইট</td></center>
+    <td><center>২৫,০০০/-</td></center>
+    <td><center>২,০০০/-(মাসিক)</td></center>
+  </tr>
+ 
+ 
+ 
+ 
+  <tr>
+    <td><center>সুপার প্যাকেজ(অফলাইন)</td></center>
+    <td><center>রোগী ব্যবস্থাপনা
+,আউটডোর ম্যানেজমেন্ট,ইনডোর ম্যানেজমেন্ট,ওটি ব্যবস্থাপনা,অ্যাপয়েন্টমেন্ট ম্যানেজমেন্ট,ভাউচার ব্যবস্থাপনা,ল্যাব রিপোর্ট ব্যবস্থাপনা,ফার্মেসি ব্যবস্থাপনা,স্টোর ম্যানেজমেন্ট,এইচআর ম্যানেজমেন্ট,ডাক্তারের প্রেসক্রিপশন,রোগীর অনলাইন পোর্টাল,মেডিকেল রেকর্ড ব্যবস্থাপনা,ব্লাড ব্যাঙ্ক ব্যবস্থাপনা,এমআইএস/অ্যাকাউন্ট রিপোর্ট,নিরাপত্তা ব্যবস্থাপনা,ফ্রন্ট ডেস্ক ব্যবস্থাপনা,এস.এম.এস মডিউল,একটি ওয়েবসাইট</td></center>
+    <td><center>৪০,০০০/-</td></center>
+    <td><center>৩,০০০/-(মাসিক)</td></center>
+  </tr>
+ 
+</table>
+
+</body>
+</html>               
+                    
+                </div>
+            </div>
+        </div>
+        
+         
+        <!-- Project End -->
+
+
+
+
+
+
+
+<center><h1 class="text-black fw-bold d-block">সচরাচর<span class="text-secondary"> জিজ্ঞাসা</span></h1> </center>
+
+
+
+
+<button class="accordion"><center>কিভাবে অর্ডার দেওয়া যাবে ?</center></button>
+<div class="panel">
+  <center><p>প্রথমে আপনাকে ডেমো দেওয়া হবে এবং আপনাকে প্রপোজাল দেওয়া হবে সেখানে স্পস্ট খরচ তালিকাসহ কি কি সার্ভিস দেওয়া হবে তা উল্লেখ থাকবে। অতপর আপনি একমত হলে আমাদেরকে একটি ওয়ার্ক অর্ডার দিবেন।</p></center>
+</div>
+
+<button class="accordion"><center>সফটওয়্যার অর্ডার কনফার্ম পলিসি কী ?</center></button>
+<div class="panel">
+  <center><p>ওয়ার্ক অর্ডারের সময় ৫০% পেমেন্ট করে অর্ডারটি বুকিং দিতে হবে । ডেলিভারি দেওয়ার পর আপনাকে ট্রেনিং দেওয়া হবে এনিডেক্স বা টিমভিউয়ার এর মাধ্যমে । সফটওয়্যার ডেলিভারি ও ট্রেনিং সম্পন্ন হলে বাকি ৫০% টাকা পরিশোধ করতে হবে।</p></center>
+</div>
+
+<button class="accordion"><center>কনফার্ম দেওয়ার কতদিন পর সফটওয়্যার ডেলিভারী দিবেন?</center></button>
+<div class="panel">
+  <center><p>আমাদের রেডিমেড সফটওয়্যার কনফার্ম এর ২-৩ ঘন্টার মধ্যে ডেলিভারি দেওয়ার পর আপনাকে ট্রেনিং দেওয়া হবে এনিডেক্স বা টিমভিউয়ার এর মাধ্যমে । এবং কাষ্টমাইজ সফটওয়্যার এর জন্য আপনার সাথে আলোচনা করে ডেলিভারি সম্বাভ্য দিন ধার্য করা হবে ।</p></center>
+</div>
+
+
+<button class="accordion"><center>পেমেন্ট সিকিউরিটি কি?</center></button>
+<div class="panel">
+  <center><p>আমরা ওয়ার্ক অর্ডার দ্বারা পেপারে চুক্তিবদ্ধ হয়ে কাজ করি এবং আমাদের অফিসিয়াল প্যাড এ আপনাকে পেমেন্ট রিসিভ কপি ও "LAB EXPRESS" থেকে আপনাকে কনফার্ম এস.এম.এস দেওয়া হবে সুতরাং আপনি বা আমরা কেউ প্রতারিত হওয়া ১% সম্ভাবনাও নেই।</p></center>
+</div>
+
+
+
+<button class="accordion"><center>ব্যাংকে টাকা দেওয়া যাবে?</center></button>
+<div class="panel">
+  <center><p>আমাদের সকল লেনদেন সিটি ব্যাংক লিমিটেড কর্তৃক হয়ে থাকে। আপনি চাইলে ব্যাংকের মাধ্যমে লেনদেন করতে পারেন।</p></center>
+</div>
+
+
+<button class="accordion"><center>মেইনটেনেন্স চুক্তি/সার্ভিস চার্জ আছে ?</center></button>
+<div class="panel">
+  <center><p>জ্বী আমাদের বিভিন্ন প্যাকেজ অনুযায়ী সার্ভিস চার্জ  রয়েছে যা ল্যাব এক্সপ্রেস সফটওয়্যার প্যাকেজ লিষ্ট এ দেওয়া আছে ।</p></center>
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+        <!-- Footer Start -->
+         <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html">
+                            <h1 class="text-white fw-bold d-block">Lab<span class="text-secondary">Express</span> </h1>
+                        </a>
+                        <p class="mt-4 text-light">ল্যাব এক্সপ্রেস হসপিটাল,ডায়াগনষ্টিক,ক্লিনিক সেন্টারের ম্যানেজমেন্ট সফটওয়্যার ।নির্ভুল হিসাব ও সঠিক ডাটা এনালাইসিসের জন্য সহজ ও মানসম্মত সফটওয়্যার ল্যাব এক্সপ্রেস। </p>
+                        <div class="d-flex hightech-link">
+                            <a href="#" ><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="#" ><i class="fab fa-twitter text-primary"></i></a>
+                            <a href="#" ><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="#" ><i class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Short Link</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="index.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>হোম</a>
+                            <a href="feature.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>ফিচার</a>
+                            
+                            <a href="pakages.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>প্যাকেজ</a>
+                            <a href="privacy-policy.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>প্রাইবেসি পলিসি</a>
+                            <a href="contact.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>যোগাযোগ</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Help Link</a>
+                        <div class="mt-4 d-flex flex-column help-link">
+                            <a href="privacy-policy.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>প্রাইবেসি পলিসি</a>
+                            <a href="service-policy.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>সার্ভিস পলিসি</a>
+                            <a href="http://soft.labexpressbd.com:8080/ords/f?p=176:1:4163982777709:::::" target="_blank" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>ডেমো রিকোয়েষ্ট</a>
+                            <a href="faq.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>এফএকিউ (FAQ)
+</a>
+                            <a href="contact.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>যোগাযোগ</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Contact Us</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Link Road,Sadar Cox'sBazar</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i>+8801840-728055</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i>labexpressbd@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <center><a href="js/Lab_Express.apk" download>
+  <img src="js/playstore.png" alt="W3Schools" width="20%" height="20%">
+</a></center>
+                
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>LabExpress</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <span class="text-light" >Designed & Developed By<a href="https://coxianit.com/" target="_blank" class="text-secondary">Coxian iT</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="index.html" class="back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="../ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="../cdn.jsdelivr.net/npm/bootstrap%405.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</br>
+
+
+<html lang="en-US"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+
+
+
+
+		
+
+
+<style>
+			
+
+		</style>
+	<link rel="stylesheet" type="text/css" href="../munzudigital.com/wp-content/plugins/breaking_news/css/style.css"><noscript><style type="text/css">.mptt-shortcode-wrapper .mptt-shortcode-table:first-of-type{display:table!important}.mptt-shortcode-wrapper .mptt-shortcode-table .mptt-event-container:hover{height:auto!important;min-height:100%!important}body.mprm_ie_browser .mptt-shortcode-wrapper .mptt-event-container{height:auto!important}@media (max-width:767px){.mptt-shortcode-wrapper .mptt-shortcode-table:first-of-type{display:none!important}}</style></noscript><meta name="generator" content="Elementor 3.14.0; features: a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+
+			<script type="text/javascript">
+				var elementskit_section_parallax_data = {};
+				var elementskit_module_parallax_url = "https://munzudigital.com/wp-content/plugins/medizco-essential/modules/parallax/"
+			</script>
+
+
+
+
+   <div class="BackTo" style="">
+      
+   </div>
+<div class="breaking_news_box" style="background: none repeat scroll 0 0 #2E8B57;bottom: 0;color: #CCCCCC;direction: ltr;height: 32px;left: 0;min-width: 600px;position: fixed;width: 100%;z-index: 99935;" id="breaking_news">		
+	<b class="breaking_head">সতর্কীকরণ:</b>
+	<ul style="margin:4px;color:white;">
+
+		
+		<marquee>
+     🚫আমাদের সফটওয়্যারটি বাংলাদেশ কপিরাইট আইন দ্বারা নিবন্ধিত। আমাদের অনুমতি ছাড়া এই সফটওয়্যার এর আংশিক পরিবর্তন কিংবা বিক্রয়/বিতরণ করা আইনতদণ্ডনীয় অপরাধ।🚫   
+ 
+
+    </marquee>
+	
+	
+</div>		
+</script>
+</body>
+</html>
+
+
+
+
+
+
